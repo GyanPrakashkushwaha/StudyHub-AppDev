@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>JavaScript All Examples</title>
+<style>
+  body { font-family: Arial; padding: 20px; }
+  button { margin: 5px; padding: 6px 12px; }
+  .highlight { background: black; color: white; padding: 5px; }
+</style>
+</head>
+<body>
+
+<h1>JavaScript All-in-One Demonstration</h1>
+
+<!-- 1. BUTTON + EVENT -->
+<button id="playerBtn">Player 1: Chris</button>
+
+<!-- 3. SHOPPING LIST -->
+<h2>Shopping List</h2>
+<input id="item" placeholder="Add item">
+<button id="addItem" onclick="printConsole('Clicked! Added to cart')">Add</button>
+<ul id="list"></ul>
+
+<!-- 4. KEY LOG DEMO -->
+<h2>Key Logger</h2>
+<input class="textBox" type="text">
+<p name="keyOut"></p>
+
+<script>
+function printConsole(message) { console.log(message); }
+const playerBtn = document.querySelector("#playerBtn"); // <button id="playerBtn">Player 1: Chris</button>
+playerBtn.addEventListener("click", () => {
+  console.log("playerBtn clicked");
+  const name = prompt("Enter name");
+  playerBtn.textContent = `Player 1: ${name}`;
+});
+
+// ---------- 3. Shopping List ----------
+const input = document.getElementById("item");
+const addBtn = document.getElementById("addItem");
+const ul = document.getElementById("list");
+
+addBtn.addEventListener("click", e => {
+  e.preventDefault();
+  let val = input.value.trim();
+  if (!val) return;
+
+  let li = document.createElement("li"); // <li>
+  let span = document.createElement("span"); // <span>val</span>
+  let del = document.createElement("button"); // <button>Delete</button>
+  del.textContent = "Delete";
+  span.textContent = val;
+
+  li.append(span, del);
+  ul.appendChild(li);
+
+  del.addEventListener("click", () => li.remove());
+  input.value = "";
+  input.focus();
+});
+
+// ---------- 4. Key Logger (Arrow Function) ----------
+const textBox = document.getElementsByClassName("textBox")[0]; // <input id="textBox" type="text">
+console.log(textBox);
+const out = document.getElementsByName("keyOut")[0]; // <p id="keyOut"></p>
+textBox.addEventListener("keydown", e => out.textContent = "You pressed: " + e.key);
+</script>
+
+</body>
+</html>

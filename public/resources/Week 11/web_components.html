@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Flag Icon - Simple Custom Element</title>
+</head>
+<body>
+
+
+<!-- Custom Element Usage -->
+<flag-icon country="in"></flag-icon>
+<flag-icon country="us"></flag-icon>
+<flag-icon country="jp"></flag-icon>
+
+
+<script>
+// <flag-icon> → autonomous custom element
+// shows country flag based on attribute country="in"
+
+
+class FlagIcon extends HTMLElement {
+
+
+constructor() {
+super(); // always call super() first
+
+
+
+// internal <img> element = how flag will be shown
+this.img = document.createElement("img");
+this.img.style.width = "200px";
+
+
+// add <img> into shadow DOM
+this.appendChild(this.img);
+}
+
+
+// browser should watch this attribute
+static get observedAttributes() { return ["country"]; }
+
+
+// runs when attribute changes
+attributeChangedCallback(name, oldValue, newValue) {
+this.updateFlag(newValue);
+}
+
+
+// runs when element first placed in DOM
+connectedCallback() {
+const value = this.getAttribute("country");
+this.updateFlag(value);
+}
+
+
+// simple helper fn
+updateFlag(code) {
+if (!code) return;
+
+
+code = code.toLowerCase();
+this.img.src = `https://flagcdn.com/w80/${code}.png`;
+this.img.alt = `Flag of ${code.toUpperCase()}`;
+}
+}
+
+
+// register element name
+customElements.define("flag-icon", FlagIcon);
+</script>
+
+
+</body>
+</html>

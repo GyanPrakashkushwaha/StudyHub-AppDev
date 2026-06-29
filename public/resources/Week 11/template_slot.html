@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Book Template Demo</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    li {
+      margin: 6px 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>Book List (Template Example)</h2>
+
+  <!-- Template = NOT rendered unless cloned -->
+  <template id="book-template">
+    <li>
+      <span class="author"></span>'s classic novel
+      <span class="title"></span>
+    </li>
+  </template>
+
+  <ul id="books"></ul>
+
+<script>
+  // 1. Access template node
+  const fragment = document.getElementById('book-template');
+
+  // 2. Sample Data
+  const books = [
+    { title: 'The Great Gatsby', author: 'F. Scott Fitzgerald' },
+    { title: 'A Farewell to Arms', author: 'Ernest Hemingway' },
+    { title: 'Catch 22', author: 'Joseph Heller' }
+  ];
+
+  // 3. For each book → clone template → fill → append
+  books.forEach(book => {
+    // Create deep clone of template content
+    const instance = document.importNode(fragment.content, true);
+
+    // Fill template fields
+    instance.querySelector('.title').textContent = book.title;
+    instance.querySelector('.author').textContent = book.author;
+
+    // Add into <ul>
+    document.getElementById('books').appendChild(instance);
+  });
+</script>
+
+</body>
+</html>

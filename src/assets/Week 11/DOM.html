@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> </head>
+  <body>
+    <script>
+      // create a couple of elements in an otherwise empty HTML page
+      const heading = document.createElement("h1"); // <h1></h1> PARENT
+      const headingText = document.createTextNode("Big Head!"); //Big Head!
+      heading.appendChild(headingText); //  <h1>Big Head!</h1>
+      document.body.appendChild(heading); //<body> <h1>Big Head!</h1> <body>
+    </script>
+  </body>
+</html>
+ <!-- DOCUMENT -> BODY -> HEADING ->  Big Head! -->

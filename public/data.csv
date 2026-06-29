@@ -1,0 +1,62 @@
+Date,Weekday,Type of session,Week,SME,Topics  covered,Time,Gmeet link,Drive link,Recording link,Number of participants,Session Summary,Resources
+18/Jun/26,Thursday,TA Session,Week 1,Himanshu,Installations & VSCode,6:00 pm - 8:00 pm,meet.google.com/kig-jbhi-pby,,Recording,89,"Installation of python, vscode and git",Week 1 Book
+19/Jun/26,Friday,Doubt Clearing,Week 1,Himanshu,doubts,9:00 pm - 9:30 pm,meet.google.com/chb-cvre-nfm,,,,,
+20/Jun/26,Saturday,TA Session,Week 1,Yashvi,"Week 1 Theory details, Numericals, Doubts",6:00 pm - 8:00 pm,meet.google.com/kig-jbhi-pby,chat,Recording,59,week one theory and numericals covered,
+22/Jun/26,Monday,Doubt Clearing,Week 1,Yashvi,Week 1 + VSCode setup doubts,9:00 pm - 9:30 pm,meet.google.com/chb-cvre-nfm,,,,,
+23/Jun/26,Tuesday,TA Session,Week 2,GyanPrakash,Week 2 LA,6:00 pm - 8:00 pm,meet.google.com/kig-jbhi-pby,Chat,Recording,66,HTML Lab assignment ,Week 2 Book
+25/Jun/26,Thursday,TA Session,Week 2,GyanPrakash,Week 2 concept summary,6:00 pm - 8:00 pm,meet.google.com/kig-jbhi-pby,Chat,Recording,34,Week 2 theory,
+26/Jun/26,Friday,Doubt Clearing,Week 2,GyanPrakash,doubts,9:00 pm - 9:30 pm,meet.google.com/chb-cvre-nfm,,,,,
+27/Jun/26,Saturday,TA Session,Week 2,GyanPrakash,"HTML-CSS, LA doubts",6:00 pm - 8:00 pm,meet.google.com/kig-jbhi-pby,,,,,
+29/Jun/26,Monday,Doubt Clearing,Week 2,Yashvi,doubts,9:00 pm - 9:30 pm,meet.google.com/chb-cvre-nfm,,,,,
+30/Jun/26,Tuesday,TA Session,Week 3,Himanshu,content summary,6:00 pm - 8:00 pm,meet.google.com/kig-jbhi-pby,,,,,Week3 Notes
+2/Jul/26,Thursday,TA Session,Week 3,GyanPrakash,Week 3 LA,6:00 pm - 8:00 pm,meet.google.com/kig-jbhi-pby,,,,,
+3/Jul/26,Friday,Doubt Clearing,Week 3,GyanPrakash,doubts,9:00 pm - 9:30 pm,meet.google.com/chb-cvre-nfm,,,,,
+4/Jul/26,Saturday,TA Session,Week 3,Yashvi,"Extra Concepts: jinja, Flask, pyHTML",6:00 pm - 8:00 pm,meet.google.com/kig-jbhi-pby,,,,,
+6/Jul/26,Monday,Doubt Clearing,,,doubts,9:00 pm - 9:30 pm,meet.google.com/chb-cvre-nfm,,,,,
+7/Jul/26,Tuesday,TA Session,Week 4,Yashvi,week 4 content summary,6:00 pm - 8:00 pm,meet.google.com/kig-jbhi-pby,,,,,flask-basics-notes
+9/Jul/26,Thursday,TA Session,Week 4,GyanPrakash,week 4 Lab assignment,6:00 pm - 8:00 pm,meet.google.com/kig-jbhi-pby,,,,,flask template rendering
+10/Jul/26,Friday,Doubt Clearing,,GyanPrakash,doubts,9:00 pm - 9:30 pm,meet.google.com/chb-cvre-nfm,,,,,
+11/Jul/26,Saturday,TA Session,Week 4,Yashvi,Solved Jan 2026 Quiz 1 paper,9:00 pm - 9:30 pm,meet.google.com/kig-jbhi-pby,,,,,flask forms
+13/Jul/26,Monday,Doubt Clearing,Week 4,,doubts,9:00 pm - 9:30 pm,meet.google.com/chb-cvre-nfm,,,,,
+14/Jul/26,Tuesday,TA Session,PYQ,Himanshu,Solved Sept 2025 Quiz 1 paper,6:00 pm - 8:00 pm,meet.google.com/kig-jbhi-pby,,,,,
+16/Jul/26,Thursday,TA Session,PYQ,GyanPrakash,Solved May 2025 Quiz 1 paper,6:00 pm - 8:00 pm,meet.google.com/kig-jbhi-pby,,,,,jinja
+17/Jul/26,Friday,Doubt Clearing,,,doubts,9:00 pm - 9:30 pm,meet.google.com/chb-cvre-nfm,,,,,
+20/Jul/26,Monday,Doubt Clearing,Week 5,,doubts,9:00 pm - 9:30 pm,meet.google.com/chb-cvre-nfm,,,,,
+21/Jul/26,Tuesday,TA Session,Week 5,,Week 5 LA,6:00 pm - 8:00 pm,meet.google.com/kig-jbhi-pby,,,,,
+23/Jul/26,Thursday,TA Session,Week 5,, Week 5 Concepts,6:00 - 8:00 pm,meet.google.com/kig-jbhi-pby,,,,,notes
+24/Jul/26,Friday,Doubt Clearing,Week 5,,doubts,9:00 pm - 9:30 pm,meet.google.com/chb-cvre-nfm,,,,,
+25/Jul/26,Saturday,TA Session,Week 6,,Week 6 theory summary & Week 5 practice,6:00 pm - 8:00 pm,meet.google.com/kig-jbhi-pby,,,,,notes
+27/Jul/26,Monday,Doubt Clearing,Week 6,,Doubts,9:00pm - 9:30pm,meet.google.com/chb-cvre-nfm,,,,,
+28/Jul/26,Tuesday,TA Session,Week 6,,Week 6 LA,6:00 pm - 8:00 pm,meet.google.com/kig-jbhi-pby,,,,,
+30/Jul/26,Thursday,TA Session,Week7,,week7 LA part1,06:00pm - 08:00pm,meet.google.com/kig-jbhi-pby,,,,,notes
+31/Jul/26,Friday,Doubt Clearing,Week 7,,W7 Doubts,9:00pm - 9:30pm,meet.google.com/chb-cvre-nfm,,,,,
+1/Aug/26,Saturday,TA Session,Week 7,,Week 7 content summary,6:00 pm - 8:00 pm,meet.google.com/kig-jbhi-pby,,,,,notes
+3/Aug/26,Monday,Doubt Clearing,Week 7,,doubts,6:00 pm - 8:00 pm,meet.google.com/chb-cvre-nfm,,,,,
+4/Aug/26,Tuesday,TA Session,Week 8,,Week 7 Lab Assignment part 2,9:00pm - 9:30pm,meet.google.com/kig-jbhi-pby,,,,,
+6/Aug/26,Thursday,TA Session,Week 8,,Week 8 content summary,6:00 pm - 8:00 pm,meet.google.com/kig-jbhi-pby,,,,,notes
+7/Aug/26,Friday,Doubt Clearing,Week 8,,Week 8 doubts,6:00 pm - 8:00 pm,meet.google.com/chb-cvre-nfm,,,,,
+8/Aug/26,Saturday,TA Session,wee7&8,,week 7 & 8 tools,6:00 pm - 8:00 pm,meet.google.com/kig-jbhi-pby,,,,,
+10/Aug/26,Monday,Doubt Clearing,PYQ,,quiz 2 doubts,9:00pm - 9:30pm,meet.google.com/chb-cvre-nfm,,,,,
+11/Aug/26,Tuesday,TA Session,,Yashvi,May 2025+ Sept 2024 Quiz2 paper solving,6:00 pm - 8:00 pm,meet.google.com/kig-jbhi-pby,,,,,
+13/Aug/26,Thursday,TA Session,PYQ,Gyanprakash,Sept 2025 Quiz2 paper solving,6:00 pm - 8:00 pm,meet.google.com/kig-jbhi-pby,,,,,
+14/Aug/26,Friday,Doubt Clearing,PYQ,,quiz 2 doubts,,meet.google.com/chb-cvre-nfm,,,,,
+15/Aug/26,Saturday,TA Session,Week 8,,doubts,9:00pm - 9:30pm,meet.google.com/kig-jbhi-pby,,,,,
+17/Aug/26,Monday,Doubt Clearing,Week 9,,Week 9 concept summary,6:00 pm - 8:00 pm,meet.google.com/chb-cvre-nfm,,,,,Whiteboard
+18/Aug/26,Tuesday,TA Session,Week 10,,Week 9 extra concepts,9:00am - 11:00am,meet.google.com/kig-jbhi-pby,,,,,Whiteboard
+20/Aug/26,Thursday,TA Session,Week 9,,doubts,9:00pm - 9:30pm,meet.google.com/kig-jbhi-pby,,,,,
+21/Aug/26,Friday,Doubt Clearing,Week 9,,PyTest + Quiz 2 paper discussion (Yashvi),6:00 pm - 8:00 pm,meet.google.com/chb-cvre-nfm,,,,,
+22/Aug/26,Saturday,TA Session,Week 10,,doubts,9:00pm - 9:30pm,meet.google.com/kig-jbhi-pby,,,,,
+24/Aug/26,Monday,Doubt Clearing,Week 10,,"Week 10 pytest(fixtures, markers, etc)",6:00 pm - 8:00 pm,meet.google.com/chb-cvre-nfm,,,,,
+25/Aug/26,Tuesday,TA Session,Week 11,,Week 11 concept summary,6:00 pm - 8:00 pm,meet.google.com/kig-jbhi-pby,,,,,Notes
+27/Aug/26,Thursday,TA Session,Week 11,,doubts,9:00pm - 9:30pm,meet.google.com/kig-jbhi-pby,,,,,
+28/Aug/26,Friday,Doubt Clearing,Week 12,,git concepts,6:00 pm - 8:00 pm,meet.google.com/chb-cvre-nfm,,,,,
+29/Aug/26,Saturday,TA Session,Week 12,,git + github setup,6:00 pm - 8:00 pm,meet.google.com/kig-jbhi-pby,,,,,
+31/Aug/26,Monday,Doubt Clearing,Week 12,,Sept 2025 ET Solving,6:00 pm - 8:00 pm,meet.google.com/chb-cvre-nfm,,,,,
+1/Sep/26,Tuesday,TA Session,doubt,,doubts,9:00pm - 9:30pm,meet.google.com/kig-jbhi-pby,,,,,
+3/Sep/26,Thursday,TA Session,PYQ,,May 2025 ET Solving,6:00 pm - 8:00 pm,meet.google.com/kig-jbhi-pby,,,,,
+4/Sep/26,Friday,Doubt Clearing,doubt,,doubts,9:00pm - 9:30pm,meet.google.com/chb-cvre-nfm,,,,,
+5/Sep/26,Saturday,TA Session,PYQ,,Jan 2025 ET Solving,6:00 pm - 8:00 pm,meet.google.com/kig-jbhi-pby,,,,,
+7/Sep/26,Monday,Doubt Clearing,PYQ,,May 2024 ET Solving,6:00 pm - 8:00 pm,meet.google.com/chb-cvre-nfm,,,,,
+8/Sep/26,Tuesday,TA Session,doubt,,doubts,9:00 pm - 10:00 pm,meet.google.com/kig-jbhi-pby,,,,,
+10/Sep/26,Thursday,TA Session,,,,,meet.google.com/kig-jbhi-pby,,,,,
+11/Sep/26,Friday,Doubt Clearing,doubt,,doubts,9:00 pm - 10:00 pm,meet.google.com/kig-jbhi-pby,,,,,

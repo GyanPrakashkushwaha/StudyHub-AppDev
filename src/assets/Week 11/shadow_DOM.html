@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head><title>Counter Component</title></head>
+<body>
+
+
+<h3>Shadow Counter Demo</h3>
+<simple-counter start="5"></simple-counter>
+<p>Current value: <span id="v">?</span></p>
+
+
+<script>
+class SimpleCounter extends HTMLElement {
+
+
+constructor() {
+super();
+
+
+// shadow root → isolate HTML + CSS
+this.shadow = this.attachShadow({ mode: "open" });
+
+
+// component UI inside shadow DOM
+this.shadow.innerHTML = `
+<style>
+button { padding:4px 10px; margin:5px; }
+</style>
+
+
+<button id="dec">-</button>
+<span id="num"></span>
+<button id="inc">+</button>
+`;
+
+
+this.numEl = this.shadow.querySelector("#num");
+this.v = 0;
+}
+
+
+static get observedAttributes() { return ["start"]; }
+
+
+attributeChangedCallback(name, oldVal, newVal) {
+this.v = Number(newVal);
+this.render();
+}
+
+
+connectedCallback() {
+// if no start attribute → default = 0
+if (!this.hasAttribute("start")) this.v = 0;
+
+
+// attach event listeners
+this.shadow.querySelector("#inc").onclick = () => { this.v++; this.update(); };
+this.shadow.querySelector("#dec").onclick = () => { this.v--; this.update(); };
+
+
+this.render();
+}
+
+
+render() {
+this.numEl.textContent = this.v;
+}
+
+
+update() {
+this.render();
+
+
+// emit custom event → bubble to parent page
+this.dispatchEvent(new CustomEvent("count-change", {
+detail: { value: this.v },
+bubbles: true,
+composed: true
+}));
+}
+}
+
+
+customElements.define("simple-counter", SimpleCounter);
+
+
+// HOST PAGE listens to component
+
+
+document.addEventListener("count-change", e => {
+document.querySelector("#v").textContent = e.detail.value;
+});
+</script>
+
+
+</body>
+</html>
